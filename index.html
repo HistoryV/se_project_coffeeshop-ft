@@ -98,6 +98,66 @@
             </li>
           </ul>
         </section>
+        <section class="reservation">
+          <h2 class="reservation__title">Book of table</h2>
+          <div class="reservation__form">
+            <form class="form reservation__form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">
+                  name *
+                  <input
+                    id="name"
+                    type="text"
+                    class="form__input"
+                    placeholder="Name Surname"
+                    required
+                  />
+                </label>
+                <label for="number-of-guest" class="form__label form__label">
+                  number of guest *
+                  <input
+                    id="number-of-guest"
+                    type="number"
+                    class="form__input"
+                    placeholder="1-8"
+                    required
+                  />
+                </label>
+                <label for="date-&-time" class="form__label">
+                  Date & Time *
+                  <input
+                    id="date-&-time"
+                    type="datetime-local"
+                    class="form__input"
+                    required
+                  />
+                </label>
+                <label for="email" class="form__label">
+                  your email*
+                  <input
+                    id="email"
+                    type="email"
+                    class="form__input"
+                    placeholder="email@email.com"
+                  />
+                </label>
+              </fieldset>
+              <button type="submit" class="form__button">Book a table</button>
+              <label
+                for="checkbox"
+                class="form__label form__label_type_checkbox"
+              >
+                <input
+                  id="checkbox"
+                  type="checkbox"
+                  class="form__checkbox"
+                  required
+                />
+                I agree with the terms of use
+              </label>
+            </form>
+          </div>
+        </section>
       </main>
 
       <footer class="footer">
